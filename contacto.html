@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header>
+        <h1>Z4X, el robot</h1>
+        <nav>
+            <ul>
+                <!-- El que tiene el clase active es donde estás parado y te ayuda a darle estilo especial -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="misiones.html">Misiones</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contenedor">
+        <form>
+            <label for="nombre"> Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribi aqui tu nombre"  required minlength="3" >
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail" placeholder="Escribi aqui tu email" required>
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="Argetina">Argetina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuaador">Ecuaador</option>
+            </select>
+            <label for="comentarios">Comentarios:</label>
+            <textarea name="comentario" id="comentario" placeholder="Escribir aqui tu comentario"></textarea>
+
+            <input type="submit" value="Enviar">
+
+         </form>
+    </div>
+    <footer>
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.deLado{
+    float: left; /*este al costado*/
+    width: auto;
+
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    margin: 5px;
+    border: 1px solid grey;
+    float: left;
+    width: 33vw;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
